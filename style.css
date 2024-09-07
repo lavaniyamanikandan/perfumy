@@ -1,7 +1,7 @@
 .header{
     background-color: black;
-    padding: 10px;
-    border-width: 5px;
+    padding: 5px;
+    border-width: 5px; 
     border-style:double;
     border-color: aliceblue;
     color: aliceblue;
@@ -9,8 +9,8 @@
 li{
     display: inline;
     cursor:pointer;
-    
-
+    padding: 2px;
+    margin-bottom: 1px;
     
 }
 ul{
@@ -44,21 +44,22 @@ input{
 }
 
 .box{
-     border-color: black;
+     border-color:aliceblue;
      border-style: double;
      display: inline-block;
      text-align: center;
-    
-     
+    padding: 10px;
+    margin: 20px;
+     color: aliceblue;
 }
 .box:hover{
-    background-color: black;
+    background-color: rgb(101, 79, 22);
     color: aliceblue;
     
 }
 .about{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 20px;
 }
 .contacts{
@@ -68,7 +69,7 @@ input{
 }
 .one{
     color: grey;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 h4{
     display: inline;
@@ -80,5 +81,4 @@ h4{
 .product{
     text-align: center;
 }
-
 
